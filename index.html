@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .game {
+            background: #444;
+            border-radius: 10px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .game iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            border-radius: 5px;
+        }
+        .game h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>🎮 Welcome to My Gaming Page 🎮</header>
+    <div class="game-container">
+        <div class="game">
+            <h3>Dinosaur Game</h3>
+            <iframe src="https://chromedino.com/"></iframe>
+        </div>
+        <div class="game">
+            <h3>Coming Soon</h3>
+            <p>New games will be added here!</p>
+        </div>
+        <div class="game">
+            <h3>Coming Soon</h3>
+            <p>New games will be added here!</p>
+        </div>
+    </div>
+    <footer>© 2025 My Gaming Page | Powered by GitHub Pages</footer>
+</body>
+</html>
